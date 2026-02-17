@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.csv
+.ipynb_checkpoints/
+
+*.zip
+# Ignore data files
+Data/
+*.csv
+
+# Ignore virtual environment
+venv/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
