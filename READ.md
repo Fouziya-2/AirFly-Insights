@@ -170,22 +170,23 @@ Memory optimization
 
 3️⃣ Feature Dictionary
 
-Feature	Description
-FL_DATE	Flight date
-OP_CARRIER	Airline carrier code
-ORIGIN	Departure airport
-DEST	Arrival airport
-CRS_DEP_TIME	Scheduled departure time
-DEP_TIME	Actual departure time
-DEP_DELAY	Departure delay (minutes)
-ARR_TIME	Actual arrival time
-ARR_DELAY	Arrival delay (minutes)
-CANCELLED	Cancellation flag (0 = No, 1 = Yes)
-DISTANCE	Flight distance
-TAXI_IN	Taxi-in time
-TAXI_OUT	Taxi-out time
-MONTH	Extracted month
-DAY_OF_WEEK	Numeric weekday
-DAY_NAME	Weekday name
-DEP_HOUR	Scheduled departure hour
-ROUTE	Origin–Destination combination
+| Feature Name      | Description |
+|-------------------|------------|
+| FL_DATE           | Flight date |
+| OP_CARRIER        | Airline carrier code |
+| ORIGIN            | Departure airport |
+| DEST              | Arrival airport |
+| CRS_DEP_TIME      | Scheduled departure time |
+| DEP_TIME          | Actual departure time |
+| DEP_DELAY         | Departure delay (minutes) |
+| ARR_TIME          | Actual arrival time |
+| ARR_DELAY         | Arrival delay (minutes) |
+| CANCELLED         | Cancellation flag (0 = No, 1 = Yes) |
+| DISTANCE          | Flight distance |
+| TAXI_IN           | Taxi-in time (minutes) |
+| TAXI_OUT          | Taxi-out time (minutes) |
+| MONTH             | Extracted month |
+| DAY_OF_WEEK       | Numeric weekday |
+| DAY_NAME          | Weekday name |
+| DEP_HOUR          | Scheduled departure hour |
+| ROUTE             | Origin-Destination combination |
