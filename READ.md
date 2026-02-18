@@ -21,6 +21,9 @@ Build foundation for trend analysis and stakeholder insights
 📂 Dataset
 
 Source: Kaggle – Airlines Flights Data (2018 subset used)
+## Dataset
+The dataset is not included in this repository due to size limitations.
+It can be downloaded from:(https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis)
 
 The dataset contains flight-level operational details including:
 
