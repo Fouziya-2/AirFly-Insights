@@ -192,3 +192,95 @@ Memory optimization
 | DAY_NAME          | Weekday name |
 | DEP_HOUR          | Scheduled departure hour |
 | ROUTE             | Origin-Destination combination |
+
+
+
+Milestone 2 visualisation analysis....
+
+Overview
+
+In Milestone 2, a detailed visual analysis was performed on the processed flight dataset (January 2018). The objective was to explore delay patterns, airline performance, operational factors, and time-based trends using univariate and bivariate analysis techniques.
+
+Note: The dataset contains flights from January only; therefore, seasonal comparison across months was not performed.
+
+
+🔍 Univariate Analysis
+
+The following single-variable analyses were performed:
+
+Distribution of Arrival Delays (Histogram)
+
+Boxplot of Arrival Delays (Outlier Detection)
+
+Flight Distribution by Departure Hour
+
+Key Observations:
+
+Most flights experience small delays.
+
+Delay distribution is right-skewed with extreme outliers.
+
+Flight departures peak during morning hours and remain steady during daytime.
+
+
+🔄 Bivariate Analysis
+
+The following relationship-based analyses were conducted:
+
+Average Arrival Delay by Airline
+
+Taxi-Out Time vs Departure Delay (Scatter Plot)
+
+Key Observations:
+
+Airline performance varies significantly in terms of average delay.
+
+Taxi-out time shows a weak relationship with departure delay, indicating that congestion may contribute to delays but is not the only factor.
+
+Operational efficiency appears to differ across carriers.
+
+Week 4 – Delay Analysis
+Overview
+
+In this section, delay patterns were analyzed using arrival delay (ARR_DELAY) and departure delay (DEP_DELAY) data. Since the dataset contains only January data, the analysis focuses on operational and airline-based delay patterns rather than full seasonal comparison.
+
+1. Arrival Delay Distribution
+
+A histogram and boxplot were used to understand the distribution of arrival delays.
+
+Most flights have small or moderate delays.
+
+The distribution is right-skewed.
+
+There are several extreme outliers with very high delay values.
+
+This indicates that while most flights are near schedule, a small number experience significant delays.
+
+2. Average Arrival Delay by Airline
+
+A bar chart was used to compare average arrival delays across different airlines.
+
+Some airlines show higher average delays compared to others.
+
+A few airlines maintain relatively low average delays.
+
+This suggests operational efficiency varies between carriers.
+
+3. Average Arrival Delay by Departure Hour
+
+A line plot was used to analyze delay trends across departure hours.
+
+Delays vary depending on departure time.
+
+Certain hours show higher average delays.
+
+This suggests time-of-day congestion may impact flight punctuality
+
+
+Tools Used
+
+Python
+Pandas
+Matplotlib
+Seaborn
+Jupyter Notebook
