@@ -94,6 +94,156 @@ Key Insights
 - Some airlines consistently show higher average delay times compared to others.
 
 
-Author
 
+
+AirFly Insights – Milestone 3
+
+Overview
+
+Milestone 3 focuses on analyzing airline operational patterns including routes, airport traffic, cancellations, and delays. The goal is to identify important trends affecting airline performance and visualize them using a Streamlit dashboard.
+
+Route Analysis
+
+Top Routes
+
+1.Identified the most frequent flight routes.
+2.High-frequency routes represent major airline travel corridors.
+
+Visualization
+
+1.Bar chart showing top routes by flight count.
+
+Insight
+
+1.Some routes experience significantly higher traffic compared to others.
+
+Airport Traffic Analysis
+
+Busiest Airports
+
+1.Analyzed airports with the highest number of flight departures.
+
+Visualization
+
+1.Bar chart showing airports with the highest flight volume.
+
+Insight
+
+1.Major airports handle large volumes of flights and act as aviation hubs.
+
+Cancellation Analysis
+
+Flight Cancellation Reasons
+
+1.Flights may be cancelled due to operational or environmental factors.
+
+Visualization
+
+1.Pie chart showing distribution of cancellation reasons.
+
+Cancellation Codes
+
+A – Carrier
+B – Weather
+C – NAS (National Airspace System)
+D – Security
+
+Insight
+
+1.Carrier and weather-related issues are common causes of cancellations.
+
+Delay Cause Analysis
+
+Average Delay by Cause
+
+Analyzes the average delay minutes caused by different operational factors.
+
+Delay Types
+
+1.Carrier Delay
+2.Weather Delay
+NAS Delay
+3.Security Delay
+4.Late Aircraft Delay
+
+Visualization
+
+1.Bar chart showing average delay by cause.
+
+Insight
+
+1.Carrier and late aircraft delays contribute significantly to overall delays.
+
+Seasonal Delay Analysis
+
+Average Arrival Delay by Season
+
+Examines how flight delays vary across different seasons.
+
+Visualization
+
+1.Bar chart showing average arrival delay by season.
+
+Insight
+
+1.Certain seasons experience higher delays due to weather conditions and travel demand.
+
+Flight Schedule Analysis
+
+Flights by Departure Hour
+
+Analyzes how flight departures are distributed throughout the day.
+
+Visualization
+
+1.Line chart showing number of flights by departure hour.
+
+Insight
+
+1.Flight departures peak during morning and evening travel periods.
+
+
+
+Streamlit Dashboard
+
+An interactive Streamlit dashboard was created to visualize airline operational insights.
+
+Dashboard Sections
+
+--Dataset preview
+--Route analysis
+--Airport traffic analysis
+--Cancellation analysis
+--Delay cause analysis
+--Seasonal delay trends
+--Flight schedule analysis
+--Key insights summary
+
+Each visualization includes:
+
+--Clear titles
+--Axis labels
+--Short explanations
+
+
+Key Insights
+
+--Major airports handle high volumes of flight traffic.
+--Certain routes experience significantly higher demand.
+--Carrier delays contribute heavily to total delays.
+--Seasonal patterns affect delay trends.
+--Flight departures peak during specific hours of the day.
+
+Deliverables
+
+Milestone 3 includes:
+
+--Route and airport traffic analysis
+--Cancellation and delay insights
+--Seasonal delay analysis
+--Interactive Streamlit dashboard
+--GitHub repository with analysis code and visualizations
+
+
+Author
 Fouziya
