@@ -1,0 +1,16 @@
+
+📊 ✅ TEST CASE REPORT 
+
+
+| Test Case ID | Test Scenario                  | Input / Action                     | Expected Output                              | Actual Result                              | Status |
+|--------------|--------------------------------|------------------------------------|----------------------------------------------|--------------------------------------------|--------|
+| TC-01        | Filter by Airline              | Select airline from sidebar        | All KPI cards and charts update dynamically  | Charts updated based on airline selection  | Pass   |
+| TC-02        | Filter by Month                | Select month from sidebar          | Dashboard updates for selected month         | Data updated correctly                     | Pass   |
+| TC-03        | Delay Range Filter             | Adjust delay range slider          | Only flights within selected delay shown     | Filter worked correctly                    | Pass   |
+| TC-04        | Map Visualization              | Open Overview tab                  | Airports displayed on geographical map       | Map loaded with airport points             | Pass   |
+| TC-05        | Route Analysis                 | Open Flights tab                   | Top busiest routes displayed                 | Routes shown correctly                     | Pass   |
+| TC-06        | Airport Analysis               | Open Flights tab                   | Top airports chart displayed                 | Airports shown correctly                   | Pass   |
+| TC-07        | Delay Heatmap                  | Open Delays tab                    | Heatmap shows delay patterns                 | Heatmap displayed correctly                | Pass   |
+| TC-08        | Cancellation Reasons Pie Chart | Open Delays tab                    | Pie chart displays cancellation codes        | Pie chart loaded successfully              | Pass   |
+| TC-09        | Histogram Delay Distribution   | Open Delays tab                    | Histogram shows delay spread                 | Histogram displayed correctly              | Pass   |
+| TC-10        | Download Button                | Click download button              | CSV file downloaded                          | File downloaded successfully               | Pass   |
